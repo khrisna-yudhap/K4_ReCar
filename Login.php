@@ -52,13 +52,23 @@
           <img class="logo" src="src/photo/recaricon2.png" style="max-width: 200px; margin-bottom:20px;" alt="">
           <h6 class="card-subtitle mb-2 text-muted">Silahkan login untuk memulai</h6>
         </div>
-        <div class="input" style="margin-top: 20px;">
-          <form action="post" style="">
+        <div class="input" style="margin-top: 20px; padding-left: 50px; padding-right: 50px;">
+          <form action="post">
             <label for="username" class="card-subtitle mb-2 text-muted">Username :</label>
-            <input type="text" class="form form-control" name="username">
+            <input type="text" class="form form-control" name="username" style="border-radius: 15px;">
             <label for="username" class="card-subtitle mb-2 text-muted">Password :</label>
-            <input type="text" class="form form-control" name="password">
+            <input type="text" class="form form-control" name="password" style="border-radius: 15px;">
+            <div class="forgot">
+              <a href="#forgot" class="text-reset" style="">Lupa password?</a>
+            </div>
+            <div class="button" align="center">
+              <button type="submit" class="btn btn-primary mt-3" style="width: 256px; border-radius:15px; font-weight: bold;">Login</button>
+              <p class="card-subtitle m-2 text-muted">Belum punya akun?</p>
+              <button type="submit" class="btn btn-outline-dark" style="width: 256px; border-radius:15px; font-weight: bold;">Daftar</button>
+            </div>
           </form>
+
+
         </div>
       </div>
     </div>
